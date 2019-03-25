@@ -15,10 +15,11 @@ public class LectureController {
     private volatile long LECTURE_ID_SEQUENCE = 1;
     private Map<Long, LectureModel> lectureDatabase = new Hashtable<>();
 
-//    @RequestMapping(value = {"", "list"}, method = RequestMethod.GET)
+    @RequestMapping(value = {"", "index"}, method = RequestMethod.GET)
     public String list(ModelMap model) {
         model.addAttribute("lectureDatabase", lectureDatabase);
-        return "list";
+        return "index";
     }
+    
   
 }
