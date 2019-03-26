@@ -1,3 +1,6 @@
 ouhk\comps380f\controller\LectureController.class
+ouhk\comps380f\view\DownloadingView.class
 ouhk\comps380f\controller\IndexController.class
-ouhk\comps380f\model\LectureModel.class
+ouhk\comps380f\model\Material.class
+ouhk\comps380f\model\Attachment.class
+ouhk\comps380f\controller\LectureController$Form.class

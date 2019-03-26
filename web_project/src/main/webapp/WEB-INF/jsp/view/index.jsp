@@ -4,7 +4,7 @@
         <title>Home Page</title>
     </head>
     <body>
-        <h2>Course Name:</h2>
+        <h2>Course Name: CompS380F</h2>
         <c:choose>
             <c:when test="${fn:length(lectureDatabase) == 0}">
                 <i>There are no lecture in the system.</i>
